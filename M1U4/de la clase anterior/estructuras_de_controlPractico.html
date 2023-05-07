@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+    <script type = "text/javascript"> 
+   
+       
+    
+    </script>
+</head>
+<body>
+    <script>
+		const num1 = parseInt(prompt('Ingrese primer número :', ''));
+		const num2 = parseInt(prompt('Ingrese segundo número :', ''));
+		const num3 = parseInt(prompt('Ingrese tercer número:', ''));
+        const num4 = parseInt(prompt('Ingrese cuarto número :', ''));
+        const num5 = parseInt(prompt('Ingrese quinto número  :', ''));
+		if (num1 < num2 && num1 < num3 && num1 < num4 && num1 < num5) {
+			document.write(`debe ir a pie  ${num1}`);
+		} else if (num2 > num3) {
+			document.write(`debe ir en bicicleta  ${num2}`);
+		} else {
+			document.write(`debe ir en auto  ${num3}`);
+		}
+        if (num4 < num5  ) {
+			document.write(`debe ir en colectivo  ${num4}`);
+		} else if (num4 > num5) {
+			document.write(`debe ir en avion  ${num5}`);
+		} else {
+			document.write(`Viaje en avion  ${num5}`);
+		}
+        
+        
+	</script>
+    
+</body>
+</html>
