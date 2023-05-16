@@ -8,37 +8,36 @@
 </head>
 <body>
     <div class="contenedor">     
-    <div class="Cuadrado rojo" on clic = "cambiar fondo (#ff0000)"></div>
-    <div class="Cuadrado rojo" on clic = "cambiar fondo (green)"></div>
-    <div class="Cuadrado rojo" on clic = "cambiar fondo (blue)"></div>
+    <div class="cuadrado rojo" onclic = "cambiarfondo (red)"></div>
+    <div class="cuadrado verde" onclic = "cambiarfondo (green)"></div>
+    <div class="cuadrado azul" onclic = "cambiarfondo (blue)"></div>
 
     </div>
     <style>   
        .contenedor { 
-        display :flex  ; }
+        display :flex; }
         .cuadrado { 
          height : 100px ;
          width: 100px;
          cursor: pointer;
         } 
         .rojo { 
-            background-color: red;
+            background-color:red;
                     }
         .verde { 
-            background-color: green;
+            background-color:green;
         }  
         .azul {
-            background-color: blue;
+            background-color:blue;
         }          
     
     </style>
     <script> 
     function cambiarfondo (color) {
 
-        document.querySelector("body"). style.background =color ;
+        document.querySelector("body").style.background =color ;
     }
-     
-    
+       
     
     </script>
 </body>
